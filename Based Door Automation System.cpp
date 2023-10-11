@@ -7,7 +7,7 @@ Servo servo;
 void setup() {
 Serial.begin(9600);
 pinMode(TRIG_PIN, OUTPUT);
-pinMode(ECHO_PIN, INPUT); // set Arduino pin to input mode
+pinMode(ECHO_PIN, INPUT);
 servo.attach(SERVO_PIN); // attach the servo motor to the corresponding pin
 }
 void loop() {
