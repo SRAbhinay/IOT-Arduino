@@ -17,7 +17,7 @@ digitalWrite(TRIG_PIN, LOW);
 float duration_us = pulseIn(ECHO_PIN, HIGH);
 float distance_cm = 0.017 * duration_us;
 if (distance_cm < DISTANCE_THRESHOLD) {
-servo.write(90); // Rotate the servo motor to 90 degrees (open position)
+servo.write(90);
 delay(2000);
 servo.write(0);
 }
