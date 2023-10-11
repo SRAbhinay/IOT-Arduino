@@ -26,7 +26,7 @@ void blinker() {
 Serial.println("Blinking");
 digitalWrite(LED_BUILTIN, HIGH);
 delay(1000); 
-digitalWrite(LED_BUILTIN, LOW); // turn the LED off by making the voltage LOW
+digitalWrite(LED_BUILTIN, LOW); 
 delay(1000); 
 }
 
