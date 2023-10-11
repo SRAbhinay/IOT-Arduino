@@ -14,15 +14,15 @@ void setup() {
 }
 
 void loop() {
-digitalWrite(TRIG_PIN, HIGH);
-delayMicroseconds(10);
-digitalWrite(TRIG_PIN, LOW);
-float duration_us = pulseIn(ECHO_PIN, HIGH);
-float distance_cm = 0.017 * duration_us;
-if (distance_cm < DISTANCE_THRESHOLD) {
-servo.write(90);
-delay(2000);
-servo.write(0);
-}
-delay(500);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+  float duration_us = pulseIn(ECHO_PIN, HIGH);
+  float distance_cm = 0.017 * duration_us;
+  if (distance_cm < DISTANCE_THRESHOLD) {
+    servo.write(90);
+    delay(2000);
+    servo.write(0);
+    }
+  delay(500);
 }
