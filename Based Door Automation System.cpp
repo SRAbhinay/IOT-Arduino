@@ -6,7 +6,7 @@ const int DISTANCE_THRESHOLD = 50;
 Servo servo;
 void setup() {
 Serial.begin(9600);
-pinMode(TRIG_PIN, OUTPUT); // set Arduino pin to output mode
+pinMode(TRIG_PIN, OUTPUT);
 pinMode(ECHO_PIN, INPUT); // set Arduino pin to input mode
 servo.attach(SERVO_PIN); // attach the servo motor to the corresponding pin
 }
