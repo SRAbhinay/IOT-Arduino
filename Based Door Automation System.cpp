@@ -11,7 +11,6 @@ pinMode(ECHO_PIN, INPUT);
 servo.attach(SERVO_PIN);
 }
 void loop() {
-// generate 10-microsecond pulse to TRIG pin
 digitalWrite(TRIG_PIN, HIGH);
 delayMicroseconds(10);
 digitalWrite(TRIG_PIN, LOW);
