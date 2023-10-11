@@ -1,7 +1,7 @@
 int ledPin = 13;
 void setup() {
 pinMode(ledPin, OUTPUT);
-Serial.begin(9600); // Set the baud rate for Bluetooth communication}
+Serial.begin(9600);
 void loop() { if (Serial.available())
 { char command = Serial.read();
 if (receivedChar == 'LED ON') {
