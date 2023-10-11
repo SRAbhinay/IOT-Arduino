@@ -1,5 +1,5 @@
 #include <Servo.h>
-const int TRIG_PIN = 9; // Arduino pin connected to Ultrasonic Sensor's TRIG pin
+const int TRIG_PIN = 9;
 const int ECHO_PIN = 10; // Arduino pin connected to Ultrasonic Sensor's ECHO pin
 const int SERVO_PIN = 5; // Arduino pin connected to Servo Motor's signal pin
 const int DISTANCE_THRESHOLD = 50; // centimeters
