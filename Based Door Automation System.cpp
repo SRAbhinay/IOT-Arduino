@@ -14,7 +14,6 @@ void loop() {
 digitalWrite(TRIG_PIN, HIGH);
 delayMicroseconds(10);
 digitalWrite(TRIG_PIN, LOW);
-// measure duration of pulse from ECHO pin
 float duration_us = pulseIn(ECHO_PIN, HIGH);
 // calculate the distance
 float distance_cm = 0.017 * duration_us;
