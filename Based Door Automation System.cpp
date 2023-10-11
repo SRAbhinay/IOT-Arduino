@@ -3,13 +3,16 @@ const int TRIG_PIN = 9;
 const int ECHO_PIN = 10;
 const int SERVO_PIN = 5;
 const int DISTANCE_THRESHOLD = 50;
+
 Servo servo;
+
 void setup() {
-Serial.begin(9600);
-pinMode(TRIG_PIN, OUTPUT);
-pinMode(ECHO_PIN, INPUT);
-servo.attach(SERVO_PIN);
+  Serial.begin(9600);
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  servo.attach(SERVO_PIN);
 }
+
 void loop() {
 digitalWrite(TRIG_PIN, HIGH);
 delayMicroseconds(10);
