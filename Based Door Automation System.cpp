@@ -19,7 +19,6 @@ float distance_cm = 0.017 * duration_us;
 if (distance_cm < DISTANCE_THRESHOLD) {
 servo.write(90); // Rotate the servo motor to 90 degrees (open position)
 delay(2000); // Wait for 2 seconds
-// Close the door
 servo.write(0);
 }
 delay(500);
