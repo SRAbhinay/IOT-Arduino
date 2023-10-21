@@ -10,7 +10,7 @@ void loop() {
  } 
 
 void setup() { pinMode(2, OUTPUT);
-pinMode(3, OUTPUT); // Yellow LED
+pinMode(3, OUTPUT);
 pinMode(4, OUTPUT); // Green LED // Additional setup code for traffic control mechanism if used 
 }
 void loop() { // Check traffic control mechanism for the desired light sequence
