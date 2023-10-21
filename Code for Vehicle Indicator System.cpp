@@ -6,7 +6,7 @@ void loop() {
 { digitalWrite(2, HIGH);
 delay(500);
 digitalWrite(2, LOW);
-delay(500); // Delay for the same interval
+delay(500);
  } }
 
 //Code for Smart Traffic Light System:
