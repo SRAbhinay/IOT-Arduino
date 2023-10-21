@@ -4,7 +4,7 @@ void setup() {
 
 void loop() { 
 { digitalWrite(2, HIGH);
-delay(500); // Delay for a specific interval
+delay(500);
 digitalWrite(2, LOW); // Turn off the LED
 delay(500); // Delay for the same interval
  } }
