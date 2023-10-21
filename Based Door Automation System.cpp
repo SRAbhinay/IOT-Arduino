@@ -8,6 +8,7 @@ const int DISTANCE_THRESHOLD = 50;
 Servo servo;
 
 void setup() {
+  
   Serial.begin(9600);
   pinMode(TRIG_PIN, OUTPUT);
   pinMode(ECHO_PIN, INPUT);
