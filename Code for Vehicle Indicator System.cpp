@@ -1,4 +1,4 @@
-void setup() { pinMode(2, OUTPUT); // Additional setup code for sensor initialization if used 
+void setup() { pinMode(2, OUTPUT);
 }
 void loop() { // Check sensor input for breakdown detection if (breakdownDetected)
 { digitalWrite(2, HIGH); // Turn on the LED
