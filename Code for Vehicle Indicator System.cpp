@@ -11,7 +11,7 @@ void loop() {
 
 void setup() { pinMode(2, OUTPUT);
 pinMode(3, OUTPUT);
-pinMode(4, OUTPUT); // Green LED // Additional setup code for traffic control mechanism if used 
+pinMode(4, OUTPUT);
 }
 void loop() { // Check traffic control mechanism for the desired light sequence
 if (trafficControl == RED) { digitalWrite(2, HIGH); // Red LED on
