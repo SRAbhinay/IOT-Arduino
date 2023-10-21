@@ -5,9 +5,11 @@
 
 char ssid[] = "Abhi";
 char pass[] = "";
+
 int keyIndex = 0;
 int status = WL_IDLE_STATUS;
 WiFiServer server(80);
+
 void setup() {
 Serial.begin(9600);
 pinMode(LED_BUILTIN, OUTPUT);
