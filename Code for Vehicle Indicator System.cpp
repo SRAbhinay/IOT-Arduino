@@ -1,6 +1,8 @@
-void setup() { pinMode(2, OUTPUT);
-}
-void loop() { // Check sensor input for breakdown detection if (breakdownDetected)
+void setup() { 
+ pinMode(2, OUTPUT);
+ }
+
+void loop() { 
 { digitalWrite(2, HIGH); // Turn on the LED
 delay(500); // Delay for a specific interval
 digitalWrite(2, LOW); // Turn off the LED
