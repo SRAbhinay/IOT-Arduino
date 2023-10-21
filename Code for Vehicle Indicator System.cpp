@@ -9,8 +9,6 @@ digitalWrite(2, LOW);
 delay(500);
  } }
 
-//Code for Smart Traffic Light System:
-
 void setup() { pinMode(2, OUTPUT); // Red LED
 pinMode(3, OUTPUT); // Yellow LED
 pinMode(4, OUTPUT); // Green LED // Additional setup code for traffic control mechanism if used 
