@@ -9,7 +9,7 @@ digitalWrite(2, LOW);
 delay(500);
  } }
 
-void setup() { pinMode(2, OUTPUT); // Red LED
+void setup() { pinMode(2, OUTPUT);
 pinMode(3, OUTPUT); // Yellow LED
 pinMode(4, OUTPUT); // Green LED // Additional setup code for traffic control mechanism if used 
 }
