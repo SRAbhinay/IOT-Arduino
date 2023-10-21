@@ -1,6 +1,8 @@
 #include <SPI.h>
 #include <WiFiNINA.h>
+
 3
+
 char ssid[] = "Kevin";
 char pass[] = "";
 int keyIndex = 0;
