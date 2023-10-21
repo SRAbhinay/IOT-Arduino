@@ -15,6 +15,7 @@ void setup() {
 }
 
 void loop() {
+ 
   digitalWrite(TRIG_PIN, HIGH);
   delayMicroseconds(10);
   digitalWrite(TRIG_PIN, LOW);
